@@ -1,0 +1,135 @@
+Q1. create a multi-threaded application by using  "extends Thread " method.create 2 threads. 
+they should display characters from A to J.
+public class ThreadDemo extends Thread
+{
+	public void run()
+	{
+		System.out.println(Thread.currentThread());
+		for(char i='A';i<='J';i++)
+		{
+			System.out.println(i);
+		}
+	}
+	
+	
+	public static void main(String[] args) 
+	{
+		ThreadDemo t1 = new ThreadDemo();
+		ThreadDemo t2 = new ThreadDemo();
+		
+		t1.setName("First");
+		t2.setName("Second");
+		t1.start();
+		t2.start();
+		
+		
+	}
+
+}
+
+
+Q2.above program  using "implements Runnable" method.
+
+public class ThreadDemo2 implements Runnable
+	{
+		public void run()
+		{
+			System.out.println(Thread.currentThread());
+			for(char i='A';i<='J';i++)
+			{
+				System.out.println(i);
+			}
+			
+		}
+		
+		
+		public static void main(String[] args) 
+		{
+			ThreadDemo td1 = new ThreadDemo();
+			ThreadDemo td2 = new ThreadDemo();
+			Thread t1 = new Thread(td1);
+			Thread t2 = new Thread(td2);
+			t1.setName("First");
+			t2.setName("Second");
+			t1.start();
+			t2.start();
+			
+			
+		}
+
+	}
+
+
+
+
+Q3.create 3 threads in such a way that while one thread is executing,
+      2 threads cannot interfere. they should display output "Exec  0" to "Exec 5".
+
+public class ThreadSync implements Runnable
+{
+		synchronized public void run()
+		{
+			System.out.println(Thread.currentThread());
+			for(int i=0;i<=5;i++)
+			{
+				System.out.println("Exec"+i);
+			}
+		}
+		
+		
+		public static void main(String[] args) 
+		{
+			
+			ThreadSync t = new ThreadSync();
+			
+			Thread t1 = new Thread(t);
+			Thread t2 = new Thread(t);
+			Thread t3 = new Thread(t);
+			
+			t1.setName("First");
+			t2.setName("Second");
+			t2.setName("Third");
+			t1.start();
+			t2.start();
+			t3.start();
+			
+			
+		}
+
+	}
+
+
+Q4.create 2 threads. Write a program which displays number 1 to 10 using class lock. 
+      [hint:- use "implements Runnable" and synchronized block]
+
+public class ClassLockDemo implements Runnable
+{
+	@Override
+	public void run() {
+		disp();
+		
+	}
+	synchronized static void disp()
+	{
+		for(int i=1;i<=10;i++)
+		{
+			System.out.println(i);
+		}
+	}
+	
+	
+
+	public static void main(String[] args) 
+	{
+		ClassLockDemo c1= new ClassLockDemo();
+		ClassLockDemo c2= new ClassLockDemo();
+		Thread t1= new Thread(c1);
+		Thread t2= new Thread(c2);
+		t1.start();
+		t2.start();
+
+	}
+
+
+
+
