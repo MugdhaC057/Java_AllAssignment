@@ -1,0 +1,357 @@
+Microsoft Windows [Version 10.0.18363.1198]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+F:\EDAC\OOPs with JAVA\Practise>javac Refl1.java
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl1
+java.lang.ArrayIndexOutOfBoundsException: 0
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl1 java.lang.object
+java.lang.ClassNotFoundException: java.lang.object
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl1 java.lang.Object
+protected void java.lang.Object.finalize() throws java.lang.Throwable
+public final void java.lang.Object.wait() throws java.lang.InterruptedException
+public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+public boolean java.lang.Object.equals(java.lang.Object)
+public java.lang.String java.lang.Object.toString()
+public native int java.lang.Object.hashCode()
+public final native java.lang.Class java.lang.Object.getClass()
+protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+public final native void java.lang.Object.notify()
+public final native void java.lang.Object.notifyAll()
+private static native void java.lang.Object.registerNatives()
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl1 java.lang.String
+public boolean java.lang.String.equals(java.lang.Object)
+public java.lang.String java.lang.String.toString()
+public int java.lang.String.hashCode()
+public int java.lang.String.compareTo(java.lang.String)
+public int java.lang.String.compareTo(java.lang.Object)
+public int java.lang.String.indexOf(java.lang.String,int)
+public int java.lang.String.indexOf(java.lang.String)
+public int java.lang.String.indexOf(int,int)
+public int java.lang.String.indexOf(int)
+static int java.lang.String.indexOf(char[],int,int,char[],int,int,int)
+static int java.lang.String.indexOf(char[],int,int,java.lang.String,int)
+public static java.lang.String java.lang.String.valueOf(int)
+public static java.lang.String java.lang.String.valueOf(long)
+public static java.lang.String java.lang.String.valueOf(float)
+public static java.lang.String java.lang.String.valueOf(boolean)
+public static java.lang.String java.lang.String.valueOf(char[])
+public static java.lang.String java.lang.String.valueOf(char[],int,int)
+public static java.lang.String java.lang.String.valueOf(java.lang.Object)
+public static java.lang.String java.lang.String.valueOf(char)
+public static java.lang.String java.lang.String.valueOf(double)
+public char java.lang.String.charAt(int)
+private static void java.lang.String.checkBounds(byte[],int,int)
+public int java.lang.String.codePointAt(int)
+public int java.lang.String.codePointBefore(int)
+public int java.lang.String.codePointCount(int,int)
+public int java.lang.String.compareToIgnoreCase(java.lang.String)
+public java.lang.String java.lang.String.concat(java.lang.String)
+public boolean java.lang.String.contains(java.lang.CharSequence)
+public boolean java.lang.String.contentEquals(java.lang.CharSequence)
+public boolean java.lang.String.contentEquals(java.lang.StringBuffer)
+public static java.lang.String java.lang.String.copyValueOf(char[])
+public static java.lang.String java.lang.String.copyValueOf(char[],int,int)
+public boolean java.lang.String.endsWith(java.lang.String)
+public boolean java.lang.String.equalsIgnoreCase(java.lang.String)
+public static java.lang.String java.lang.String.format(java.util.Locale,java.lang.String,java.lang.Object[])
+public static java.lang.String java.lang.String.format(java.lang.String,java.lang.Object[])
+public void java.lang.String.getBytes(int,int,byte[],int)
+public byte[] java.lang.String.getBytes(java.nio.charset.Charset)
+public byte[] java.lang.String.getBytes(java.lang.String) throws java.io.UnsupportedEncodingException
+public byte[] java.lang.String.getBytes()
+public void java.lang.String.getChars(int,int,char[],int)
+void java.lang.String.getChars(char[],int)
+private int java.lang.String.indexOfSupplementary(int,int)
+public native java.lang.String java.lang.String.intern()
+public boolean java.lang.String.isEmpty()
+public static java.lang.String java.lang.String.join(java.lang.CharSequence,java.lang.CharSequence[])
+public static java.lang.String java.lang.String.join(java.lang.CharSequence,java.lang.Iterable)
+public int java.lang.String.lastIndexOf(int)
+public int java.lang.String.lastIndexOf(java.lang.String)
+static int java.lang.String.lastIndexOf(char[],int,int,java.lang.String,int)
+public int java.lang.String.lastIndexOf(java.lang.String,int)
+public int java.lang.String.lastIndexOf(int,int)
+static int java.lang.String.lastIndexOf(char[],int,int,char[],int,int,int)
+private int java.lang.String.lastIndexOfSupplementary(int,int)
+public int java.lang.String.length()
+public boolean java.lang.String.matches(java.lang.String)
+private boolean java.lang.String.nonSyncContentEquals(java.lang.AbstractStringBuilder)
+public int java.lang.String.offsetByCodePoints(int,int)
+public boolean java.lang.String.regionMatches(int,java.lang.String,int,int)
+public boolean java.lang.String.regionMatches(boolean,int,java.lang.String,int,int)
+public java.lang.String java.lang.String.replace(char,char)
+public java.lang.String java.lang.String.replace(java.lang.CharSequence,java.lang.CharSequence)
+public java.lang.String java.lang.String.replaceAll(java.lang.String,java.lang.String)
+public java.lang.String java.lang.String.replaceFirst(java.lang.String,java.lang.String)
+public java.lang.String[] java.lang.String.split(java.lang.String)
+public java.lang.String[] java.lang.String.split(java.lang.String,int)
+public boolean java.lang.String.startsWith(java.lang.String,int)
+public boolean java.lang.String.startsWith(java.lang.String)
+public java.lang.CharSequence java.lang.String.subSequence(int,int)
+public java.lang.String java.lang.String.substring(int)
+public java.lang.String java.lang.String.substring(int,int)
+public char[] java.lang.String.toCharArray()
+public java.lang.String java.lang.String.toLowerCase(java.util.Locale)
+public java.lang.String java.lang.String.toLowerCase()
+public java.lang.String java.lang.String.toUpperCase()
+public java.lang.String java.lang.String.toUpperCase(java.util.Locale)
+public java.lang.String java.lang.String.trim()
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl1 java.lang.Class
+private void java.lang.Class.checkPackageAccess(java.lang.ClassLoader,boolean)
+public static java.lang.Class java.lang.Class.forName(java.lang.String) throws java.lang.ClassNotFoundException
+public static java.lang.Class java.lang.Class.forName(java.lang.String,boolean,java.lang.ClassLoader) throws java.lang.ClassNotFoundException
+private static native java.lang.Class java.lang.Class.forName0(java.lang.String,boolean,java.lang.ClassLoader,java.lang.Class) throws java.lang.ClassNotFoundException
+public java.lang.String java.lang.Class.toString()
+public java.security.ProtectionDomain java.lang.Class.getProtectionDomain()
+public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+public native boolean java.lang.Class.isInstance(java.lang.Object)
+public native int java.lang.Class.getModifiers()
+public native boolean java.lang.Class.isInterface()
+public native boolean java.lang.Class.isArray()
+public native boolean java.lang.Class.isPrimitive()
+public native java.lang.Class java.lang.Class.getSuperclass()
+public native java.lang.Class java.lang.Class.getComponentType()
+public java.lang.String java.lang.Class.getName()
+private static native void java.lang.Class.registerNatives()
+static java.lang.reflect.Field[] java.lang.Class.access$100(java.lang.Class,boolean)
+static java.lang.reflect.Field java.lang.Class.access$200(java.lang.reflect.Field[],java.lang.String)
+static boolean java.lang.Class.access$300(java.lang.Object[],java.lang.Object[])
+static boolean java.lang.Class.access$402(boolean)
+static boolean java.lang.Class.access$502(boolean)
+private static void java.lang.Class.addAll(java.util.Collection,java.lang.reflect.Field[])
+private java.lang.Class$AnnotationData java.lang.Class.annotationData()
+private static java.lang.String java.lang.Class.argumentTypesToString(java.lang.Class[])
+private static boolean java.lang.Class.arrayContentsEq(java.lang.Object[],java.lang.Object[])
+public java.lang.Class java.lang.Class.asSubclass(java.lang.Class)
+private java.lang.String java.lang.Class.cannotCastMsg(java.lang.Object)
+boolean java.lang.Class.casAnnotationType(sun.reflect.annotation.AnnotationType,sun.reflect.annotation.AnnotationType)
+public java.lang.Object java.lang.Class.cast(java.lang.Object)
+private static void java.lang.Class.checkInitted()
+private void java.lang.Class.checkMemberAccess(int,java.lang.Class,boolean)
+private static java.lang.reflect.Constructor[] java.lang.Class.copyConstructors(java.lang.reflect.Constructor[])
+private static java.lang.reflect.Field[] java.lang.Class.copyFields(java.lang.reflect.Field[])
+private static java.lang.reflect.Method[] java.lang.Class.copyMethods(java.lang.reflect.Method[])
+private java.lang.Class$AnnotationData java.lang.Class.createAnnotationData(int)
+public boolean java.lang.Class.desiredAssertionStatus()
+private static native boolean java.lang.Class.desiredAssertionStatus0(java.lang.Class)
+java.util.Map java.lang.Class.enumConstantDirectory()
+public java.lang.reflect.AnnotatedType[] java.lang.Class.getAnnotatedInterfaces()
+public java.lang.reflect.AnnotatedType java.lang.Class.getAnnotatedSuperclass()
+public java.lang.annotation.Annotation java.lang.Class.getAnnotation(java.lang.Class)
+sun.reflect.annotation.AnnotationType java.lang.Class.getAnnotationType()
+public java.lang.annotation.Annotation[] java.lang.Class.getAnnotations()
+public java.lang.annotation.Annotation[] java.lang.Class.getAnnotationsByType(java.lang.Class)
+public java.lang.String java.lang.Class.getCanonicalName()
+public java.lang.ClassLoader java.lang.Class.getClassLoader()
+java.lang.ClassLoader java.lang.Class.getClassLoader0()
+public java.lang.Class[] java.lang.Class.getClasses()
+native sun.reflect.ConstantPool java.lang.Class.getConstantPool()
+public java.lang.reflect.Constructor java.lang.Class.getConstructor(java.lang.Class[]) throws java.lang.NoSuchMethodException,java.lang.SecurityException
+private java.lang.reflect.Constructor java.lang.Class.getConstructor0(java.lang.Class[],int) throws java.lang.NoSuchMethodException
+public java.lang.reflect.Constructor[] java.lang.Class.getConstructors() throws java.lang.SecurityException
+public java.lang.annotation.Annotation java.lang.Class.getDeclaredAnnotation(java.lang.Class)
+java.util.Map java.lang.Class.getDeclaredAnnotationMap()
+public java.lang.annotation.Annotation[] java.lang.Class.getDeclaredAnnotations()
+public java.lang.annotation.Annotation[] java.lang.Class.getDeclaredAnnotationsByType(java.lang.Class)
+public java.lang.Class[] java.lang.Class.getDeclaredClasses() throws java.lang.SecurityException
+private native java.lang.Class[] java.lang.Class.getDeclaredClasses0()
+public java.lang.reflect.Constructor java.lang.Class.getDeclaredConstructor(java.lang.Class[]) throws java.lang.NoSuchMethodException,java.lang.SecurityException
+public java.lang.reflect.Constructor[] java.lang.Class.getDeclaredConstructors() throws java.lang.SecurityException
+private native java.lang.reflect.Constructor[] java.lang.Class.getDeclaredConstructors0(boolean)
+public java.lang.reflect.Field java.lang.Class.getDeclaredField(java.lang.String) throws java.lang.NoSuchFieldException,java.lang.SecurityException
+public java.lang.reflect.Field[] java.lang.Class.getDeclaredFields() throws java.lang.SecurityException
+private native java.lang.reflect.Field[] java.lang.Class.getDeclaredFields0(boolean)
+public java.lang.reflect.Method java.lang.Class.getDeclaredMethod(java.lang.String,java.lang.Class[]) throws java.lang.NoSuchMethodException,java.lang.SecurityException
+public java.lang.reflect.Method[] java.lang.Class.getDeclaredMethods() throws java.lang.SecurityException
+private native java.lang.reflect.Method[] java.lang.Class.getDeclaredMethods0(boolean)
+public java.lang.Class java.lang.Class.getDeclaringClass() throws java.lang.SecurityException
+private native java.lang.Class java.lang.Class.getDeclaringClass0()
+public java.lang.Class java.lang.Class.getEnclosingClass() throws java.lang.SecurityException
+public java.lang.reflect.Constructor java.lang.Class.getEnclosingConstructor() throws java.lang.SecurityException
+public java.lang.reflect.Method java.lang.Class.getEnclosingMethod() throws java.lang.SecurityException
+private native java.lang.Object[] java.lang.Class.getEnclosingMethod0()
+private java.lang.Class$EnclosingMethodInfo java.lang.Class.getEnclosingMethodInfo()
+public java.lang.Object[] java.lang.Class.getEnumConstants()
+java.lang.Object[] java.lang.Class.getEnumConstantsShared()
+static byte[] java.lang.Class.getExecutableTypeAnnotationBytes(java.lang.reflect.Executable)
+private sun.reflect.generics.factory.GenericsFactory java.lang.Class.getFactory()
+public java.lang.reflect.Field java.lang.Class.getField(java.lang.String) throws java.lang.NoSuchFieldException,java.lang.SecurityException
+private java.lang.reflect.Field java.lang.Class.getField0(java.lang.String) throws java.lang.NoSuchFieldException
+public java.lang.reflect.Field[] java.lang.Class.getFields() throws java.lang.SecurityException
+private sun.reflect.generics.repository.ClassRepository java.lang.Class.getGenericInfo()
+public java.lang.reflect.Type[] java.lang.Class.getGenericInterfaces()
+private native java.lang.String java.lang.Class.getGenericSignature0()
+public java.lang.reflect.Type java.lang.Class.getGenericSuperclass()
+public java.lang.Class[] java.lang.Class.getInterfaces()
+private native java.lang.Class[] java.lang.Class.getInterfaces0()
+public java.lang.reflect.Method java.lang.Class.getMethod(java.lang.String,java.lang.Class[]) throws java.lang.NoSuchMethodException,java.lang.SecurityException
+private java.lang.reflect.Method java.lang.Class.getMethod0(java.lang.String,java.lang.Class[],boolean)
+public java.lang.reflect.Method[] java.lang.Class.getMethods() throws java.lang.SecurityException
+private native java.lang.String java.lang.Class.getName0()
+public java.lang.Package java.lang.Class.getPackage()
+static native java.lang.Class java.lang.Class.getPrimitiveClass(java.lang.String)
+private native java.security.ProtectionDomain java.lang.Class.getProtectionDomain0()
+native byte[] java.lang.Class.getRawAnnotations()
+native byte[] java.lang.Class.getRawTypeAnnotations()
+private static sun.reflect.ReflectionFactory java.lang.Class.getReflectionFactory()
+public java.net.URL java.lang.Class.getResource(java.lang.String)
+public java.io.InputStream java.lang.Class.getResourceAsStream(java.lang.String)
+public native java.lang.Object[] java.lang.Class.getSigners()
+private java.lang.String java.lang.Class.getSimpleBinaryName()
+public java.lang.String java.lang.Class.getSimpleName()
+public java.lang.String java.lang.Class.getTypeName()
+public java.lang.reflect.TypeVariable[] java.lang.Class.getTypeParameters()
+public boolean java.lang.Class.isAnnotation()
+public boolean java.lang.Class.isAnnotationPresent(java.lang.Class)
+public boolean java.lang.Class.isAnonymousClass()
+private static boolean java.lang.Class.isAsciiDigit(char)
+public boolean java.lang.Class.isEnum()
+public boolean java.lang.Class.isLocalClass()
+private boolean java.lang.Class.isLocalOrAnonymousClass()
+public boolean java.lang.Class.isMemberClass()
+public boolean java.lang.Class.isSynthetic()
+public java.lang.Object java.lang.Class.newInstance() throws java.lang.InstantiationException,java.lang.IllegalAccessException
+private java.lang.Class$ReflectionData java.lang.Class.newReflectionData(java.lang.ref.SoftReference,int)
+private java.lang.reflect.Constructor[] java.lang.Class.privateGetDeclaredConstructors(boolean)
+private java.lang.reflect.Field[] java.lang.Class.privateGetDeclaredFields(boolean)
+private java.lang.reflect.Method[] java.lang.Class.privateGetDeclaredMethods(boolean)
+private java.lang.reflect.Method java.lang.Class.privateGetMethodRecursive(java.lang.String,java.lang.Class[],boolean,java.lang.Class$MethodArray)
+private java.lang.reflect.Field[] java.lang.Class.privateGetPublicFields(java.util.Set)
+private java.lang.reflect.Method[] java.lang.Class.privateGetPublicMethods()
+private java.lang.Class$ReflectionData java.lang.Class.reflectionData()
+private java.lang.String java.lang.Class.resolveName(java.lang.String)
+private static java.lang.reflect.Field java.lang.Class.searchFields(java.lang.reflect.Field[],java.lang.String)
+private static java.lang.reflect.Method java.lang.Class.searchMethods(java.lang.reflect.Method[],java.lang.String,java.lang.Class[])
+native void java.lang.Class.setSigners(java.lang.Object[])
+private static java.lang.Class java.lang.Class.toClass(java.lang.reflect.Type)
+public java.lang.String java.lang.Class.toGenericString()
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl1 Refl1
+public static void Refl1.main(java.lang.String[])
+
+F:\EDAC\OOPs with JAVA\Practise>javac Refl2.java
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl2
+name=    main
+Declared class is   class Refl2
+param #0  class [Ljava.lang.String;
+return type   void
+-------
+name=    f1
+Declared class is   class Refl2
+param #0  class java.lang.Object
+param #1  int
+exec   0 class java.lang.NullPointerException
+return type   int
+-------
+
+F:\EDAC\OOPs with JAVA\Practise>javac Refl3.java
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl3
+name    Refl3
+Decl class   class Refl3
+param  0int
+param  1double
+-------
+name    Refl3
+Decl class   class Refl3
+param  0class java.lang.String
+-------
+name    Refl3
+Decl class   class Refl3
+-------
+
+F:\EDAC\OOPs with JAVA\Practise>javac Refl4.java
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl4
+name  d
+decl class   class Refl4
+type    double
+modifiers     private
+-------
+name  i
+decl class   class Refl4
+type    int
+modifiers     public static final
+-------
+name  s
+decl class   class Refl4
+type    class java.lang.String
+modifiers
+-------
+
+F:\EDAC\OOPs with JAVA\Practise>javac one.java
+one.java:31: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                                Method m=c.getDeclaredMethod("disp1",null);
+                                                                     ^
+  cast to Class for a varargs call
+  cast to Class[] for a non-varargs call and to suppress this warning
+one.java:37: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                                m.invoke(s,null);
+                                           ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: one.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+
+F:\EDAC\OOPs with JAVA\Practise>java one
+Error: Could not find or load main class one
+
+F:\EDAC\OOPs with JAVA\Practise>javac one.java
+one.java:31: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                                Method m=c.getDeclaredMethod("disp1",null);
+                                                                     ^
+  cast to Class for a varargs call
+  cast to Class[] for a non-varargs call and to suppress this warning
+one.java:37: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                                m.invoke(s,null);
+                                           ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: one.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+
+F:\EDAC\OOPs with JAVA\Practise>java one
+Error: Could not find or load main class one
+
+F:\EDAC\OOPs with JAVA\Practise>javac BridgeDemo.java
+
+F:\EDAC\OOPs with JAVA\Practise>java BridgeDemo
+in sub disp
+2
+java.lang.String sub.disp()
+false
+java.lang.Object sub.disp()
+true
+
+F:\EDAC\OOPs with JAVA\Practise>javac Refl5.java
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl5
+Enter class name which you want to instantiate
+one
+in disp1
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl5
+Enter class name which you want to instantiate
+two
+in disp2
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl5
+Enter class name which you want to instantiate
+three
+in disp3
+
+F:\EDAC\OOPs with JAVA\Practise>java Refl5
+Enter class name which you want to instantiate
+four
+java.lang.ClassNotFoundException: four
+
+F:\EDAC\OOPs with JAVA\Practise>
